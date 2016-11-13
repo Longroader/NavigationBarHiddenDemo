@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     self.navigationItem.title = @"上滑隐藏导航条Demo";
 }
 
